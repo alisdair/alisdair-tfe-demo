@@ -14,5 +14,5 @@ resource "random_id" "random" {
 }
 
 output "random_ids" {
-  value = ["${random_id.*.random.hex}"]
+  value = ["${random_id.random.*.hex}"]
 }
