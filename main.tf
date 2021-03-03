@@ -1,6 +1,6 @@
 variable "output_count" {
   type    = number
-  default = 500
+  default = 100
 }
 
 resource "random_id" "random" {
